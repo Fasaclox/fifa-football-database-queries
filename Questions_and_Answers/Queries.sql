@@ -457,3 +457,17 @@ GROUP BY
     Club
 ORDER BY 
     Total_Value DESC;
+
+--30. Total number of playes by Injury rating classification.
+WITH cte_injury_classification AS (
+  SELECT 1 AS Injury_Rating, 'Low risk' AS Injury_Classification
+  UNION SELECT 2, 'Moderate-low risk'
+  UNION SELECT 3, 'Moderate risk'
+  UNION SELECT 4, 'High risk'
+  UNION SELECT 5, 'Very high risk'
+)
+SELECT COUNT(r.ID) AS Total_Player, r.Injury_Rating, cte.Injury_Classification
+FROM Rating r
+JOIN cte_injury_classification cte ON r.Injury_Rating = cte.Injury_Rating
+GROUP BY r.Injury_Rating, cte.Injury_Classification
+ORDER BY r.Injury_Rating DESC
