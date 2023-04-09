@@ -17,7 +17,7 @@ The Resulting Model Tables
 - <strong>Dim_GoalKeeping_Ability</strong>: Holds data on players goals keeping abilities
 
 ## Data Model
-
+![model](https://user-images.githubusercontent.com/69252875/230791695-29805584-cc9f-4c4c-810e-24ae965c5f06.png)
 
 ## Data Tranfer Process
 The database FIFA DB was created in MSSQL and the model was uploaded to the database using SSIS 
