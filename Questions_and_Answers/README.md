@@ -4,15 +4,16 @@ The dataset is a FIFA football dataset. Link to download the dataset https://dri
 
 The dataset was cleaned using @Promise Chinonso Data cleaning Documentation Process. The Link to her medium article on the documentation process https://medium.com/microsoft-power-bi/data-cleaning-inspecting-and-wrangling-the-fifa-21-data-20cad3195595
 
+## Data Modelling 
+The dataset was a single table and the resulting model was 8 tables.
+The Resulting Model Tables
+- <strong>Profile</strong>: Holds players demographics and acts as the fact table
+- <strong>Dim_Contract</strong>: Holds data on players contract, length of contract and contract type
+- <strong>Dim_Rating</strong>: Holds data on players ratings, overall best rating and potential rating
+- <strong>Dim_Mental_Abily</strong>: Holds data on players mentality attributes
+- <strong>Dim_Physical_Ability</strong>: Holds data on players Physical abilities
+- <strong>Dim_Technical_Ability</strong>: Holds data on players Technical abilities
+- <strong>Dim_Stats</strong>: Holds data players other attributes
+- <strong>Dim_GoalKeeping_Ability</strong>: Holds data on players goals keeping abilities
 
-Danny’s Diner is in need of your assistance to help the restaurant stay afloat - the restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business.
-
-## Problem Statement
-Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. Having this deeper connection with his customers will help him deliver a better and more personalised experience for his loyal customers.
-He plans on using these insights to help him decide whether he should expand the existing customer loyalty program.
-
-## Datasets used
-Three key datasets for this case study
-- <strong>Sales</strong>: The sales table captures all customer_id level purchases with an corresponding order_date and product_id information for when and what menu items were ordered.
-- <strong>Menu</strong>: The menu table maps the product_id to the actual product_name and price of each menu item.
-- <strong>Members</strong>: The members table captures the join_date when a customer_id joined the beta version of the Danny’s Diner loyalty program.
+## Data Model
