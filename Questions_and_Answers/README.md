@@ -17,3 +17,4 @@ The Resulting Model Tables
 - <strong>Dim_GoalKeeping_Ability</strong>: Holds data on players goals keeping abilities
 
 ## Data Model
+![model](https://user-images.githubusercontent.com/69252875/230791205-c9fd60be-3ce3-45dd-8cff-4d4145631d45.png)
