@@ -5,7 +5,7 @@ The dataset is a FIFA football dataset. Link to download the dataset https://dri
 The dataset was cleaned using @Promise Chinonso Data cleaning Documentation Process. The Link to her medium article on the documentation process https://medium.com/microsoft-power-bi/data-cleaning-inspecting-and-wrangling-the-fifa-21-data-20cad3195595
 
 ## Data Modelling 
-The dataset was a single table and the resulting model was 8 tables.
+The dataset was a single table and the resulting model was 8 tables star scheme with a 1 to 1 relationship.
 The Resulting Model Tables
 - <strong>Profile</strong>: Holds players demographics and acts as the fact table
 - <strong>Dim_Contract</strong>: Holds data on players contract, length of contract and contract type
