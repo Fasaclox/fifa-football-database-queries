@@ -1,6 +1,6 @@
 /* 
  * FIFA DATASET 
- * EDA 
+ * SQL QUERIES
  *  
 */
 
