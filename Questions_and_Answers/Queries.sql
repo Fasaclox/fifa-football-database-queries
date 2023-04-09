@@ -13,6 +13,7 @@ Profile;
 
 
 -- 2. What is the total number of Players?
+
 SELECT
 COUNT(DISTINCT ID) AS Total_Players
 FROM
@@ -40,7 +41,7 @@ ORDER BY
   Total_Players DESC;
 
 
---5 What is the total amount spent on wages?
+--5 What is the total amount spent on player wages?
 
 SELECT FORMAT(SUM([Wage(€)]), '#,##0') as Total_Wages FROM Contract as c;
 
@@ -164,7 +165,7 @@ ORDER BY
   Total_Players DESC;
 
 
---14. Which are the Top 10 clubs in terms of wage structure?
+--14. Which are the Top 10 clubs in terms of total wages?
 
 
 SELECT TOP 10
@@ -180,7 +181,7 @@ ORDER BY
 
 
 
---15. Which are the Bottom 10 clubs in terms of wage structure?
+--15. Which are the Bottom 10 clubs in terms of total wages?
 
 SELECT TOP 10
     CLUB,
